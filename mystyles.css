@@ -1,5 +1,37 @@
-    display: inline-block;
-    padding-block-end: 30px;
+*{
+margin: 0;
+padding: 0;
+}
+
+ul{
+    
+    list-style-type: none;
+    overflow: hidden;
+    background-color:hotpink;
+   
+}
+
+li{
+    float: left;
+    background-color:hotpink;
+    display: block;
+  /*  padding-block-end: 30px;
     padding-block-start: 30px;
-    padding-left: 130px;
-    padding-right: 130px;
+    padding-left: 40px;
+    padding-right: 90px; */
+   
+}
+
+li a{
+    
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+li a:hover {
+    background-color:rgb(226, 88, 164);
+  }
